@@ -1,7 +1,7 @@
-
 import { Link, ExternalLink, Github, Linkedin, Mail } from "lucide-react";
 import { Card } from "./ui/card";
 
+//Change this to your own links
 const Links = () => {
   const links = [
     {
@@ -9,28 +9,32 @@ const Links = () => {
       url: "#",
       icon: Link,
       description: "View my work",
-      bgClass: "bg-blue-50 dark:bg-blue-950/50 hover:bg-blue-100/80 dark:hover:bg-blue-900/50"
+      bgClass:
+        "bg-blue-50 dark:bg-blue-950/50 hover:bg-blue-100/80 dark:hover:bg-blue-900/50",
     },
     {
       title: "GitHub",
       url: "https://github.com",
       icon: Github,
       description: "Check my repositories",
-      bgClass: "bg-neutral-50 dark:bg-neutral-950/50 hover:bg-neutral-100/80 dark:hover:bg-neutral-900/50"
+      bgClass:
+        "bg-neutral-50 dark:bg-neutral-950/50 hover:bg-neutral-100/80 dark:hover:bg-neutral-900/50",
     },
     {
       title: "LinkedIn",
       url: "https://linkedin.com",
       icon: Linkedin,
       description: "Connect with me",
-      bgClass: "bg-indigo-50 dark:bg-indigo-950/50 hover:bg-indigo-100/80 dark:hover:bg-indigo-900/50"
+      bgClass:
+        "bg-indigo-50 dark:bg-indigo-950/50 hover:bg-indigo-100/80 dark:hover:bg-indigo-900/50",
     },
     {
       title: "Email",
       url: "mailto:your@email.com",
       icon: Mail,
       description: "Get in touch",
-      bgClass: "bg-violet-50 dark:bg-violet-950/50 hover:bg-violet-100/80 dark:hover:bg-violet-900/50"
+      bgClass:
+        "bg-violet-50 dark:bg-violet-950/50 hover:bg-violet-100/80 dark:hover:bg-violet-900/50",
     },
   ];
 
@@ -44,13 +48,13 @@ const Links = () => {
           rel="noopener noreferrer"
           className="group transform transition-all duration-300 hover:-translate-y-1"
         >
-          <Card 
+          <Card
             className={`p-6 transition-all duration-500 
                        ${link.bgClass}
                        border border-gray-200/50 dark:border-gray-800/50
                        backdrop-blur-sm shadow-sm hover:shadow-md
-                       animate-fade-up`} 
-            style={{ 
+                       animate-fade-up`}
+            style={{
               animationDelay: `${index * 100}ms`,
             }}
           >
