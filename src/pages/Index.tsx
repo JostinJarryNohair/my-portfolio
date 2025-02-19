@@ -1,4 +1,3 @@
-
 import Links from "@/components/Links";
 
 const Index = () => {
@@ -13,9 +12,12 @@ const Index = () => {
               Welcome to my portfolio
             </div>
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white tracking-tight">
-              Your Name
+              Jostin Jarry-Nohair
             </h1>
-            <p className="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto animate-fade-up font-light" style={{ animationDelay: "200ms" }}>
+            <p
+              className="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto animate-fade-up font-light"
+              style={{ animationDelay: "200ms" }}
+            >
               A passionate developer crafting beautiful digital experiences
             </p>
           </section>
@@ -26,7 +28,9 @@ const Index = () => {
               <h2 className="text-2xl font-semibold text-gray-900 dark:text-white">
                 Connect With Me
               </h2>
-              <p className="text-gray-600 dark:text-gray-400 mt-2">Find me across the web</p>
+              <p className="text-gray-600 dark:text-gray-400 mt-2">
+                Find me across the web
+              </p>
             </div>
             <Links />
           </section>
